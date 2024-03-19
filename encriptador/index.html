@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.google.com/share?selection.family=Inter:wght@100;200;300;400;500;600;700;800;900" rel="stylesheet">
+    <title>Encriptador Challenge</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="img/Logo.png" alt="logo">
+    </header>
+    <main>
+        <section class="section__input">
+            <div class="container__text-box">
+                <textarea placeholder="Ingrese el texto aquí" class="text-box"></textarea>
+            </div>
+            <div class="alert">
+                <img src="img/alerta.svg" alt="alert">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="buttons">
+                <input type="button" class="button__encriptar" value="Encriptar">
+                <input type="button" class="button__desencriptar" value="Desencriptar">
+            </div>
+        </section>
+        <section class="section__output">
+            <div class="muneco">
+                <img src="img/Muñeco.png" alt="output">
+            </div>
+            <div class="parrafo">
+                <h3>Ningún mensaje fue <br> encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o <br> desencriptar</p>
+            </div>
+            <div class="copy">
+                <input type="button" class="button__copy" value="Copiar">
+            </div>
+            <div class="result">
+                <p class="text-result"></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Brian Varas Beltran © 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
